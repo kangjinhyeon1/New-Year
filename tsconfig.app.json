@@ -9,9 +9,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@src/*": [
-        "src/*"
-      ],
+      "@/*": ["./src/*"]
     },
 
     /* Bundler mode */
@@ -26,7 +24,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
 }
